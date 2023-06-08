@@ -16,7 +16,7 @@ contract VoidRidersNFT is ERC721, Ownable {
     string public uriSuffix = "";
     string public hiddenMetadataUri;
 
-    uint256 public mintPrice = 0.00001 ether;
+    uint256 public mintPrice = 0.012 ether;
     uint256 public maxSupply = 2083;
     uint256 public reservedForTeam = 22;
     uint256 public mintedForTeam;
